@@ -8,3 +8,5 @@ print("Hello from `mymodule`")
 def func() -> None:
     print("You just ran the function called `func` from module `mymodule`")
     return
+
+__all__ = ['default']
