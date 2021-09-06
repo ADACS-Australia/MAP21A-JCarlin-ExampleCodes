@@ -1,0 +1,5 @@
+# for documentation
+pdoc
+# for testing
+pytest
+pytest-cov
