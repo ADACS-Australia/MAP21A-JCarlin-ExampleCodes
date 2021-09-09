@@ -21,7 +21,7 @@ def deg2hms(x):
 
     Parameters
     ----------
-    x : float
+    x : float or :py:class:`numpy.ndarray`
         Angle in degrees. Assumed to be in [-360,360]
 
     Returns
@@ -29,6 +29,10 @@ def deg2hms(x):
     hms : string
         Sexigessimal representation of x, in the format HH:MM:SS.SS
         If x is np.nan, or np.inf then return "XX:XX:XX.XX" instead
+
+    See Also
+    --------
+    :func:`mymodule.default.hard_compute`
     """
     if not np.isfinite(x):
         return 'XX:XX:XX.XX'
