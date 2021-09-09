@@ -1,5 +1,8 @@
 # for documentation
 pdoc
+sphinx
+numpydoc
+sphinx-rtd-theme
 # for testing
 pytest
 pytest-cov
