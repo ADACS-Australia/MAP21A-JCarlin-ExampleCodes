@@ -1,3 +1,5 @@
 *.html
 search.json
 mymodule/
+build/
+source/
