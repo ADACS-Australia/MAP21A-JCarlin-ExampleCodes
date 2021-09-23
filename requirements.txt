@@ -3,6 +3,7 @@ pdoc
 sphinx
 numpydoc
 sphinx-rtd-theme
+myst-parser
 # for testing
 pytest
 pytest-cov
